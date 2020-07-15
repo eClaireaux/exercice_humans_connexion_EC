@@ -1,0 +1,118 @@
+.hl-bleu{
+    color: rgb(17,168,217);
+}
+
+.hl-rouge{
+    color:rgb(237,106,76);
+}
+
+.grey{
+    color:rgb(196,196,195);
+}
+
+header{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+body{
+    background-image: url("assets/bckgd_header.png");
+    background-position: top right;
+    background-repeat:no-repeat;
+    top: 0;
+    width: 100%;
+}
+
+#page-interne{
+    background-color: white;
+    background-image: url(./assets/bckgd_jeu.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+    padding-bottom: 40px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+#page-interne>#top-row{
+    padding-top: 5%;
+}
+
+#page-interne .image{
+    padding:0px;
+}
+
+.elem-bandeau-centre#elem2, #submit-btn{
+    background-color: rgb(17,168,217);
+    color:white;
+}
+
+.elem-bandeau-centre#elem2{
+    padding:30px;
+}
+
+.elem-bandeau-centre#elem1{
+    background-color: rgb(38,38,38);
+    color:white;
+    padding:30px;
+}
+
+.elem-bandeau-centre>p{
+    margin-bottom:0px;
+}
+
+form{
+    margin-left:auto !important;
+    margin-right:auto !important;
+    width:100%;
+    max-width:600px;
+}
+
+#form-title{
+    text-align: center;
+}
+
+.form-control{
+    background-color:  rgb(244,246,252);
+    border: none;
+    border-radius: 0px;
+    padding: 30px;
+}
+
+#submit-btn{
+    text-align: center;
+    border-radius: 0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer{
+    background-image: url("assets/bckgd_footer.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 80%;
+    margin-top: 5%;
+}
+
+#footer-logos{
+    margin-bottom: 10%;
+    padding:0px;
+}
+
+#huco-logo {
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+
+@media screen and (max-width: 575px) {
+
+    #footer-logos > div {
+        align-items: center;
+        text-align: center;
+    }
+
+    #huco-footer {
+    align-items: flex-start !important;
+    }
+}

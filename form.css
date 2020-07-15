@@ -1,0 +1,9 @@
+body{
+	background-image: url("assets/bckgd_pointilles.png");
+	background-position: top right;
+	background-repeat:no-repeat;
+	top: 0;
+	width: 100%;
+	text-align:center;
+	font-weight: bold;
+}
